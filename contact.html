@@ -8,12 +8,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 <link rel="stylesheet" href="assets/style.css">
-
-
-<title>Index</title>
+<title>Title</title>
 </head>
+
 <body>
-  <!--Added navbar from bootstrap, but styled in CSS-->
+    <!-- I added a navbar through bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://www.linkedin.com/feed/">Andrew DeHaven</a>
@@ -29,28 +28,32 @@
           </div>
         </div>
       </nav>
-    
-      <!-- Added container for layout of page-->
-    <main class="container">
-        <div class="row">
-        <div class="col-md-6 col-sm-3">
-        
-        <p> I have just begun a new adventure in the world of coding and web developement. My field of expertise thus far includes HTML, CSS, Bootstrap, Javascript, and MySQL. </p>
-        <p>I have been working in IT for the past 3 years in different support roles. I am now working in EDI as an implemenation specialist setting up many small businesses with new business opportunities from large companeies such as Amazon, Walmart, Target and many more. </p>
-        <p>My first passion is traveling and seeing the world. I speak German, English and French if pressed. I have visited over 40 different countries in 4 different continents. Please feel free to ask me about any adventure.</p>
-        <p>I also love sport. I love cycling and running. I play soccer, handball, basketball and tennis. Let me know if you ever want to play.....</p>
-        
+<!--- I added a contact me container -->
+      <div class="container contain">
+        <div class = col-lg-12-md-6-sm-3>
+        <h1> Contact Me </h1>
+        <form>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class = "container">
+            <div class = col-12>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" col="95" row="120"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary"> Submit </button>
+        </form>
       </div>
 
-        <div class="col-6">
-        <img src="assets/images/IMG_20180623_131633.jpg" class="img-fluid" alt="Brasil">
-        </div>
-    
-        <footer>
+
+<!--I added the footer without div tags-->
+      <footer>
           <h2>Made with ❤️️ by Andrew DeHaven</h2>
       </footer>
 
-    </main>
+    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

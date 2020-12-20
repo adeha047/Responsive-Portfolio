@@ -1,14 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@300&display=swap');
 
+
+/*added a background color*/
+
 body {
     background-color: lightblue;
+    margin: 15px;
 }
+/* added a cool font*/
+
 .navbar-brand {
-    font-style:'Acme', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
+/* added styling to the nav bar again */
 
 .nav-link {
-    float:right;
+    padding:70 px;
+    font-style: "sanscript", bold;
+
+
+}
+
+/* I wanted to evenly distribute the paragraphs on the page */
+
+p {
+    display:flex;
+    justify-content: space-between;
+    font: large;
+    font-family: 'Courier New', Courier, Bold;
+    padding: 20px;
+
+}
+
+/*added this to my contact page */
+
+.formgroup {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+
+}
+/* I added spacing to the page*/
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+/* added some space between the p tag and the image tag. */
+
+img {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* added a footer to each page*/
+
+footer {
+   
+       
+        margin-top: 20x;
+
 }
